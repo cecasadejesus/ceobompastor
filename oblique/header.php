@@ -69,7 +69,10 @@
 		</div>
 		<div class="svg-container header-svg svg-block">
 			<?php oblique_svg_1(); ?>
-		</div>		
+		</div>
+		<div class="ure13">
+			<a href="http://ure13.cebmenezes.org.br" title="Este Centro Espírita é membro da 13ª URE"><img src="<?php echo get_template_directory_uri(); ?>/images/13ure.jpg" alt="Logo 13ª URE" /></a>
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

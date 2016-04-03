@@ -50,7 +50,6 @@ function oblique_header_style() {
 					    background: url(<?php echo get_header_image(); ?>) no-repeat;
 					    background-position: center top;
 					    background-attachment: fixed;
-					    background-size: cover;
 					}
 		</style>
 		<?php

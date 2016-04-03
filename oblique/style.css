@@ -1074,6 +1074,21 @@ Top bar
 .header-search .search-field:focus {
 	color: #fff;
 }
+
+.ure13 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 80px;
+}
+
+.ure13 a {
+	display: block;
+}
+
+.ure13 img {
+	border-radius:5px;
+}
 /*--------------------------------------------------------------
 Responsive
 --------------------------------------------------------------*/
@@ -1101,8 +1116,11 @@ Responsive
 	.hentry .post-svg {
 		margin-left: -3px;
 	}
-	.site-title {
-		font-size: 60px !important;
+
+	.ure13 {
+	    top: 7%;
+	    right: 4%;
+    	width: 60px;
 	}
 }
 @media only screen and (max-width: 767px) {
@@ -1120,7 +1138,11 @@ Responsive
 		margin: 0 auto;
 	}
 	.site-title {
-		font-size: 42px !important;
+		font-size: 32px !important;
+	}
+	.ure13 {
+	    top: 7%;
+    	width: 50px;
 	}
 	.site-description {
 		font-size: 16px;
@@ -1143,6 +1165,10 @@ Responsive
 	}
 	body {
 		font-size: 14px;
+	}
+	.ure13 {
+	    top: 6%;
+    	width: 40px;
 	}
 	.nav-svg {
 		top: -1px;
