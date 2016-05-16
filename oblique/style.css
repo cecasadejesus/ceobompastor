@@ -1194,3 +1194,15 @@ Responsive
 		text-align: center;
 	}
 }
+
+
+/* custom css */
+.home .entry-meta .posted-on:after{
+    content: '';
+    margin-left: 0px;
+}
+
+.home .entry-meta .byline,
+.home .entry-meta .cat-link {
+	display: none;
+}
