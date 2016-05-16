@@ -44,7 +44,7 @@
 	</div>
 	<?php if (!get_theme_mod('read_more')) : ?>
 	<div class="read-more">
-		<a href="<?php the_permalink(); ?>"><?php echo __('Continue reading &hellip;','oblique'); ?></a>
+		<a href="<?php the_permalink(); ?>"><?php echo __('Continue lendo &hellip;','oblique'); ?></a>
 	</div>		
 	<?php endif; ?>
 	<div class="svg-container post-bottom-svg svg-block">
